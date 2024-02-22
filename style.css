@@ -82,11 +82,12 @@ header form {
 main {
   overflow: scroll;
   background: white;
+  align-items: center;
 }
 
 .Cat {
   aspect-ratio: 16/9;
-  width: 43rem;
+  width: 37rem;
   height: 21rem;
   object-fit: cover;
 }
@@ -125,14 +126,14 @@ button:hover {
 .text h1 {
   font-size: 2.4rem;
   margin-bottom: 0.8rem;
-  width: 43rem;
+  width: 37rem;
 }
 
 .text {
   align-items: center;
 }
 .text p {
-  width: 38.2rem;
+  width: 37rem;
   line-height: 160%;
   font-size: 1.6rem;
   font-weight: 400;
@@ -152,6 +153,10 @@ h2 {
   text-decoration: none;
 }
 
+.content {
+  box-sizing: content-box;
+}
+
 label h3 {
   font-size: 1.8rem;
 }
@@ -161,7 +166,7 @@ label h3 {
   margin-top: 3.2rem;
 
   align-items: center;
-  max-width: 43rem;
+  max-width: 40rem;
   gap: 1.6rem;
 }
 
